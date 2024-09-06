@@ -1,0 +1,88 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container for the form */
+.new {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Form title */
+.new h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #333;
+}
+
+/* Input box styling */
+.us-box {
+    margin-bottom: 20px;
+}
+
+.us-box input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    outline: none;
+   
+    transition: border-color 0.3s;
+}
+
+.ps-box input {
+    margin-bottom: 30px;
+}
+
+.us-box input:focus {
+    border-color: #9b59b6;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #9b59b6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #8e44ad;
+}
+
+/* Responsive styling */
+@media screen and (max-width: 600px) {
+    .new {
+        padding: 20px;
+    }
+
+    .new h1 {
+        font-size: 24px;
+    }
+}
+             
